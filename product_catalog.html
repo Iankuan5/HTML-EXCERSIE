@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Tech Store</title>
+</head>
+<body>
+    <!-- Main heading for the store -->
+    <h1>My Tech Store</h1>
+
+    <!-- Category 1: Smartphones -->
+    <h2>Smartphones</h2>
+
+    <h3 class="abc">Smartphone A</h3>
+    <p>A powerful smartphone with excellent performance and battery life.</p>
+    <img src="https://placedog.net/640/480?r" alt="Smartphone A image">
+    <p>Price: <strong>$500</strong></p>
+
+    <h3>Smartphone B</h3>
+    <p>A stylish smartphone with a high-quality camera and sleek design.</p>
+    <img src="https://via.placeholder.com/200" alt="Smartphone B image">
+    <p>Price: <strong>$650</strong></p>
+
+    <!-- Category 2: Laptops -->
+    <h2>Laptops</h2>
+
+    <h3>Laptop X</h3>
+    <p>A lightweight laptop perfect for students and professionals.</p>
+    <img src="https://via.placeholder.com/200" alt="Laptop X image">
+    <p>Price: <strong>$900</strong></p>
+
+    <h3>Laptop Y</h3>
+    <p>A high-performance laptop designed for gaming and heavy tasks.</p>
+    <img src="https://via.placeholder.com/200" alt="Laptop Y image">
+    <p>Price: <strong>$1200</strong></p>
+
+    <!-- Comparison table for products -->
+    <h2>Product Comparison</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Feature</th>
+                <th>Smartphone A</th>
+                <th>Smartphone B</th>
+                <th>Laptop X</th>
+                <th>Laptop Y</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Price</td>
+                <td>$500</td>
+                <td>$650</td>
+                <td>$900</td>
+                <td>$1200</td>
+            </tr>
+            <tr>
+                <td>Performance</td>
+                <td>Good</td>
+                <td>Very Good</td>
+                <td>Good</td>
+                <td>Excellent</td>
+            </tr>
+            <tr>
+                <td>Battery Life</td>
+                <td>Long</td>
+                <td>Medium</td>
+                <td>Long</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Weight</td>
+                <td>Light</td>
+                <td>Light</td>
+                <td>Light</td>
+                <td>Heavy</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="5">Prices are subject to change without notice.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- Simple order form -->
+    <h2>Place Your Order</h2>
+    <form>
+        <!-- Dropdown to select product -->
+        <label for="product">Select Product:</label><br>
+        <select id="product" name="product">
+            <option value="smartphoneA">Smartphone A</option>
+            <option value="smartphoneB">Smartphone B</option>
+            <option value="laptopX">Laptop X</option>
+            <option value="laptopY">Laptop Y</option>
+        </select>
+
+        <br><br>
+
+        <!-- Number input for quantity -->
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity" min="1" placeholder="Enter quantity">
+
+        <br><br>
+
+        <!-- Customer details -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email" placeholder="Enter your email">
+
+        <br><br>
+
+        <!-- Submit button -->
+        <button type="submit">Submit Order</button>
+    </form>
+
+</body>
+</html>
